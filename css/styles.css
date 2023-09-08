@@ -253,3 +253,40 @@ body {
     width: 90%;
     cursor: pointer;
 }
+
+
+/* Endpage */
+
+.endpage {
+    display: grid;
+    align-content: center;
+    align-content: center;
+    background-color: #612a6880;
+}
+
+.endpage__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.endpage__title {
+    font-weight: 700px;
+}
+
+.endpage__texts {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.endpage__picture {
+    width: 750px;
+    height: 500px;
+    align-self: center;
+    display: block;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
