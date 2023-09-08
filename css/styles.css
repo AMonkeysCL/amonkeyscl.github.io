@@ -126,6 +126,23 @@ body {
     border-radius: 32px;
 }
 
+/*Button*/
+
+.button__body {
+    display: grid;
+    background-color: #642ba5;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 40px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 42px;
+}
+
+.button__body:hover {
+    background-color: #4e02b1;
+}
 
 /* About */
 
@@ -258,35 +275,34 @@ body {
 /* Endpage */
 
 .endpage {
-    display: grid;
-    align-content: center;
-    align-content: center;
     background-color: #fff;
 }
 
-.endpage__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    justify-content: center;
-    align-items: center;
-}
-
 .endpage__title {
-    font-weight: 700px;
+    font-weight: 700;
+    text-align: center;
+    display: grid;
+    line-height: 1.7;
 }
 
 .endpage__texts {
     line-height: 1.7;
     margin-bottom: 15px;
-    text-align: center;
+    gap: 1rem;
 }
 
-.endpage__picture {
-    width: 750px;
-    height: 500px;
-    align-self: center;
-    display: block;
-    object-fit: contain;
-    object-position: 50% 50%;
+/*Anything*/
+
+.anything {
+    background-color: #2e2e2ecb;
+}
+
+.anything__body {
+    display: grid;
+}
+
+.anything__author {
+    color: #fff;
+    text-align: center;
+    line-height: 2.0;
 }
